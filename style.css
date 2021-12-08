@@ -1,0 +1,105 @@
+/* The sidebar menu */
+/*.sidenav {*/
+/*    height: 100%; !* Full-height: remove this if you want "auto" height *!*/
+/*    width: 160px; !* Set the width of the sidebar *!*/
+/*    position: fixed; !* Fixed Sidebar (stay in place on scroll) *!*/
+/*    z-index: 1; !* Stay on top *!*/
+/*    top: 0; !* Stay at the top *!*/
+/*    left: 0;*/
+/*    background-color: #111; !* Black *!*/
+/*    overflow-x: hidden; !* Disable horizontal scroll *!*/
+/*    padding-top: 20px;*/
+/*}*/
+
+.content {
+    max-width: 700px;
+    margin: auto;
+    font-size: 12;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.works {
+  width: 75%;
+  float: right;
+  padding-left: 130px;
+}
+
+#intro{
+    margin-bottom: 10px;
+}
+
+img {
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+
+#content {
+    /*padding-top: 5%;*/
+    /* text-align: center; */
+}
+
+.sidenav {
+    /* padding-top:3%; */
+    /*padding-left: 100px;*/
+    /* float: left; */
+        /*position: fixed; !* Fixed Sidebar (stay in place on scroll) *!*/
+        font-size: 12;
+
+        position: fixed;
+
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 15px 16px 6px 16px;
+    display: block;
+    text-align: right;
+}
+
+/* .sidenav {
+    padding-top: 4%;
+    /*padding-left: 100px;*/
+    /* float: left; */
+    /*position: fixed; !* Fixed Sidebar (stay in place on scroll) *!*/
+    /* font-size: 12; */
+
+/* } */
+
+/* The navigation menu links */
+/* .sidenav a {
+    padding: 15px 16px 6px 16px;
+    display: block;
+    text-align: left;
+}
+.sidenav p {
+    padding: 0px 8px 0px 16px;
+    margin-top: 0;
+    display: block;
+} */
+
+#topofpage {
+padding-top: 400%;
+}
+
+#name {
+    /* padding-top: 40px; */
+}
+
+#description {
+    padding-bottom: 20px;
+}
+
+.works {
+    /* overflow: hidden; */
+    /* padding-top: 4%; */
+    padding-left: 70px;
+    font-size: 12;
+
+}
+
+.works p {
+    padding-bottom: 5px;
+
+}
