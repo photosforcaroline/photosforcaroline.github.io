@@ -124,4 +124,8 @@ img {
     #footer {
         display: none !important;
     }
+
+    .works {
+        padding-right: 10%;
+    }
 }
