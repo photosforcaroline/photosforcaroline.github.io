@@ -45,7 +45,7 @@ img {
     /*padding-left: 100px;*/
     /* float: left; */
         /*position: fixed; !* Fixed Sidebar (stay in place on scroll) *!*/
-        font-size: 12;
+        /* font-size: 12; */
 
         position: fixed;
 
@@ -79,9 +79,6 @@ img {
     display: block;
 } */
 
-#topofpage {
-padding-top: 400%;
-}
 
 #name {
     /* padding-top: 40px; */
@@ -95,11 +92,25 @@ padding-top: 400%;
     /* overflow: hidden; */
     /* padding-top: 4%; */
     padding-left: 70px;
-    font-size: 12;
+    /* font-size: 12; */
 
 }
 
 .works p {
     padding-bottom: 5px;
 
+}
+
+#footer {
+    position: fixed;
+    height: 65px;
+    bottom: 0px;
+    /* right: 0px; */
+    margin-bottom: 0px;
+}
+
+#footer a {
+    /* padding: 15px 16px 6px 16px; */
+    display: block;
+    text-align: right;
 }
