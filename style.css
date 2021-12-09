@@ -33,6 +33,7 @@ body {
 
 #intro{
     margin-bottom: 10px;
+    text-align: justify;
 }
 
 img {
@@ -105,6 +106,7 @@ img {
 
 .works p {
     padding-bottom: 5px;
+    text-align: justify;
 
 }
 
