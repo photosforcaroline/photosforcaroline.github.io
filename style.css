@@ -34,21 +34,6 @@ img {
     background: white;
     height: 100vh;
     padding-right: 30px;
-}
-
-.works {
-    margin: 0;
-    padding-left: 150px;
-
-}
-
-.works p {
-    padding-bottom: 5px;
-    text-align: justify;
-
-}
-
-#footer {
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -80,6 +65,7 @@ img {
     position: fixed;
     top: 30px;
     padding-left: 7px;
+    /*left: 30px;*/
     display: none;
     z-index: 10;
     font-size: 18px;
@@ -91,10 +77,12 @@ img {
 
 @media only screen and (max-width: 650px) {
     .works {
+        /*display: none;*/
         padding-left: 60px;
     }
 
     #navBar {
+        /*display: none !important;*/
         width: 100vw;
         height: 100vh;
         top: 0;
