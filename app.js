@@ -3,7 +3,7 @@ window.onload = function() {
     const navBar = document.getElementById('navBar');
     const body = document.getElementById('body');
 
-    const IDs = ['sep', 'oct', 'nov', 'dec'];
+    const IDs = ['backToTop', 'sep', 'oct', 'nov', 'dec'];
     const elements = [];
 
     let menuOpen = false;
@@ -20,19 +20,14 @@ window.onload = function() {
             hamburgerBtn.classList.add('open');
             menuOpen = true;
             console.log("menu open!");
+            document.body.style.overflow = "hidden";
         } else {
             hamburgerBtn.classList.remove('open');
             menuOpen = false;
-            console.log("menu closed!")
+            console.log("menu closed!");
+            document.body.style.overflow = "initial";
         }
         navBar.classList.toggle('open');
-        // hamburgerBtn.classList.toggle('open');
-
-        // if(menuOpen) {
-        //     menuOpen = false;
-        // } else {
-        //     menuOpen = true;
-        // }
     })
 
     if(navBar.classList == 'open') {
@@ -45,6 +40,8 @@ window.onload = function() {
         elements[i].addEventListener('click', () => {
                 if(navBar.classList == 'open') {
                     navBar.classList = '';
+                    menuOpen = false;
+                    document.body.style.overflow = "initial";
                 }
         })
     }
